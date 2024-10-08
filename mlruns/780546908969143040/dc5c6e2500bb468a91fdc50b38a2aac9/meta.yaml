@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/malik/Mlops_assignment/mlruns/780546908969143040/dc5c6e2500bb468a91fdc50b38a2aac9/artifacts
+end_time: 1728372476501
+entry_point_name: ''
+experiment_id: '780546908969143040'
+lifecycle_stage: active
+run_id: dc5c6e2500bb468a91fdc50b38a2aac9
+run_name: Random_Forest
+run_uuid: dc5c6e2500bb468a91fdc50b38a2aac9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728372474940
+status: 3
+tags: []
+user_id: malik
