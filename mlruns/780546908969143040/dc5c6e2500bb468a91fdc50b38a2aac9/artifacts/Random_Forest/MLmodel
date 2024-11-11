@@ -1,0 +1,53 @@
+artifact_path: Random_Forest
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.16.2
+model_size_bytes: 10278446
+model_uuid: 45ff461f4d5e4b009e780657f1eb3341
+run_id: dc5c6e2500bb468a91fdc50b38a2aac9
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Id", "required": true}, {"type": "double",
+    "name": "MSSubClass", "required": true}, {"type": "double", "name": "LotArea",
+    "required": true}, {"type": "double", "name": "OverallQual", "required": true},
+    {"type": "double", "name": "OverallCond", "required": true}, {"type": "double",
+    "name": "YearBuilt", "required": true}, {"type": "double", "name": "YearRemodAdd",
+    "required": true}, {"type": "double", "name": "BsmtFinSF1", "required": true},
+    {"type": "double", "name": "BsmtFinSF2", "required": true}, {"type": "double",
+    "name": "BsmtUnfSF", "required": true}, {"type": "double", "name": "TotalBsmtSF",
+    "required": true}, {"type": "double", "name": "1stFlrSF", "required": true}, {"type":
+    "double", "name": "2ndFlrSF", "required": true}, {"type": "double", "name": "LowQualFinSF",
+    "required": true}, {"type": "double", "name": "GrLivArea", "required": true},
+    {"type": "double", "name": "BsmtFullBath", "required": true}, {"type": "double",
+    "name": "BsmtHalfBath", "required": true}, {"type": "double", "name": "FullBath",
+    "required": true}, {"type": "double", "name": "HalfBath", "required": true}, {"type":
+    "double", "name": "BedroomAbvGr", "required": true}, {"type": "double", "name":
+    "KitchenAbvGr", "required": true}, {"type": "double", "name": "TotRmsAbvGrd",
+    "required": true}, {"type": "double", "name": "Fireplaces", "required": true},
+    {"type": "double", "name": "GarageCars", "required": true}, {"type": "double",
+    "name": "GarageArea", "required": true}, {"type": "double", "name": "WoodDeckSF",
+    "required": true}, {"type": "double", "name": "OpenPorchSF", "required": true},
+    {"type": "double", "name": "EnclosedPorch", "required": true}, {"type": "double",
+    "name": "3SsnPorch", "required": true}, {"type": "double", "name": "ScreenPorch",
+    "required": true}, {"type": "double", "name": "PoolArea", "required": true}, {"type":
+    "double", "name": "MiscVal", "required": true}, {"type": "double", "name": "MoSold",
+    "required": true}, {"type": "double", "name": "YrSold", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+utc_time_created: '2024-10-08 07:27:55.625538'

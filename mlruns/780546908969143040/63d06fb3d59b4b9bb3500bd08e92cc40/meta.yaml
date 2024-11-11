@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/malik/Mlops_assignment/mlruns/780546908969143040/63d06fb3d59b4b9bb3500bd08e92cc40/artifacts
+end_time: 1728372477334
+entry_point_name: ''
+experiment_id: '780546908969143040'
+lifecycle_stage: active
+run_id: 63d06fb3d59b4b9bb3500bd08e92cc40
+run_name: painted-shrike-662
+run_uuid: 63d06fb3d59b4b9bb3500bd08e92cc40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728372476502
+status: 3
+tags: []
+user_id: malik
